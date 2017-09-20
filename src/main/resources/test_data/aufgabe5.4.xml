@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Telefonliste [
+<!ELEMENT Telefonliste (Eintrag)* >
+<!ELEMENT Eintrag EMPTY>
+<!ATTLIST Eintrag
+		eintragsnr ID #REQUIRED
+		name CDATA #IMPLIED
+		vorname CDATA #IMPLIED
+		vorwahl CDATA #IMPLIED
+		telnr CDATA #IMPLIED>
+]>
+<Telefonliste>
+	<Eintrag eintragsnr="a1" name="test1" vorname="mark" vorwahl="0271" 
+	    telnr="37234"/>
+	<Eintrag eintragsnr="a2" name="test2" vorname="blub" vorwahl="02342" 
+	    telnr="122323"/>
+	<Eintrag eintragsnr="a3" name="test3" vorname="bla" vorwahl="12345" 
+	    telnr="6642"/>
+ </Telefonliste>

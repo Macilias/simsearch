@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Personen_und_Artikel SYSTEM "Aufgabe3.2.dtd">
+<Personen_und_Artikel>
+    <Personen>
+		<Person name="Hans Wurst" adresse="musterstr 2, 12345 Musterstadt">
+            <Rechnung betrag="100€" datum="22.5.2005">
+                <RechnungsArtikel artNr="a1"/>
+            </Rechnung>
+		</Person>
+	</Personen>
+	<Artikeln>
+		<Artikel artNr="a1" preis="80€" art="Hose" name="5 Pocket">
+            <Kleidung farbe="blau" größe="XL"/>
+        </Artikel>
+        <Artikel artNr="a2" preis="0,9€" art="Nudel" name="Spaghetti">
+			<Nahrungsmittel verfallsdatum="19.11.2006" gewicht="500g"/>
+        </Artikel>
+        <Artikel artNr="a3" preis="15000" art="Auto" name="Golf"/>
+	</Artikeln>
+</Personen_und_Artikel>

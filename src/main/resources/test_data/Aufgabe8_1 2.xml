@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding ="ISO-8859-1" standalone ="yes"?>
+
+<FBINFO>
+   <PERSONEN>
+      <PERSON persId="Kelter" nachname="Kelter" vornameInit="U." fachgr="PI" />
+      <PERSON persId="Wismüller" nachname="Wismüller" vornameInit="R." fachgr="BSVS" />
+	  <!-- ... -->
+   </PERSONEN>
+
+   <Studienplan>
+      <Pflichtfach kuerzel="DBS_I" />
+      <Wahlfach kuerzel="DBS_II" />
+      <Pflichtfach kuerzel="ST_I" />
+      <Wahlfach kuerzel="ST_II" />
+      <Pflichtfach kuerzel="RN_I" />
+      <Wahlfach kuerzel="RN_II" />
+	  <!-- ... -->
+   </Studienplan>
+
+   <Lehrangebot>
+      <LEHRVERANSTALTUNG>
+         <LEHRVERANSTALTUNGSNAME>Datenbanksysteme I</LEHRVERANSTALTUNGSNAME>
+         <LEHRVERANSTALTUNGSKUERZEL>DBS_I</LEHRVERANSTALTUNGSKUERZEL>
+         <LEISTUNGSPUNKTE anzahl="4" />
+         <LEHRFORM sws_umfang="2">Vorlesung</LEHRFORM>
+         <LEHRFORM sws_umfang="1">Übung</LEHRFORM>
+         <DURCHFUEHRUNG semester="2002w" dozentId="Kelter" />
+         <DURCHFUEHRUNG semester="2003w" dozentId="Kelter" />
+         <DURCHFUEHRUNG semester="2004w" dozentId="Kelter" />
+         <DURCHFUEHRUNG semester="2005w" dozentId="Kelter" />
+         <DURCHFUEHRUNG semester="2006w" dozentId="Kelter" />
+         <DURCHFUEHRUNG semester="2007w" dozentId="Kelter" />
+         <DURCHFUEHRUNG semester="2008w" dozentId="Kelter" />
+         <DURCHFUEHRUNG semester="2009w" dozentId="Kelter" />
+         <VERANTWORTLICHER dozentId="Kelter" />
+         <VERANTWORTLICHE_FG>PI</VERANTWORTLICHE_FG>
+         <SPRACHE>deutsch</SPRACHE>
+         <VORAUSSETZUNGEN_FORMAL />
+         <BM_NIVEAU>Bachelor</BM_NIVEAU>
+         <VORAUSSETZUNGEN_INHALTLICH>Grundlegende Programmierkenntnisse gemäß Modulen EI_I und EI_II</VORAUSSETZUNGEN_INHALTLICH>
+         <INHALT>Einleitend wird das Problem der persistenten Datenverwaltung generell betrachtet, und Datenbanksysteme werden mit anderen Systemen zur persistenten Datenverwaltung verglichen. Danach werden folgende Themen behandelt: 
+         <ul>
+            <li>Architektur von Informationssystemen und Datenbankmanagementsystemen (DBMS)</li>
+            <li>relationale Systeme 
+            <ul>
+               <li>konzeptionelle Grundlagen und die relationale Algebra</li>
+
+               <li>SQL</li>
+
+               <li>Abfrageverarbeitung und Optimierung</li>
+            </ul>
+            </li>
+            <li>Entwurf redundanzfreier Datenbankschemata</li>
+         </ul>
+         </INHALT>
+         <LERNZIELE>
+            <FAKTENWISSEN>
+               <ul>
+                  <li>gutes Verständnis des relationalen Datenbankmodells</li>
+                  <li>Fähigkeit, einfache Abfragen in SQL zu formulieren</li>
+               </ul>
+            </FAKTENWISSEN>
+            <BEWERTUNGSKOMPETENZ>Anwendungsbereich verschiedener Datenverwaltungssysteme einschätzen können</BEWERTUNGSKOMPETENZ>
+         </LERNZIELE>
+         <LITERATUR>Skript Datenbanksysteme I, ca. 260 Seiten, im WWW über die Leitseite der Fachgruppe verfügbar; darin zusätzliche Referenzen</LITERATUR>
+         <PRUEFUNGSFORM>K1; zur Fachprüfung wird nur zugelassen, wer wenigstens 50 % der Übungsaufgaben erfolgreich bearbeitet hat.</PRUEFUNGSFORM>
+         <ANMERKUNGEN>
+         </ANMERKUNGEN>
+      </LEHRVERANSTALTUNG>
+      <LEHRVERANSTALTUNG>
+         <LEHRVERANSTALTUNGSNAME>Datenbanksysteme II</LEHRVERANSTALTUNGSNAME>
+         <LEHRVERANSTALTUNGSKUERZEL>DBS_II</LEHRVERANSTALTUNGSKUERZEL>
+         <LEISTUNGSPUNKTE anzahl="4" />
+         <LEHRFORM sws_umfang="2">Vorlesung</LEHRFORM>
+         <LEHRFORM sws_umfang="1">Übung</LEHRFORM>
+         <DURCHFUEHRUNG semester="2003s" dozentId="Monecke" />
+         <DURCHFUEHRUNG semester="2004s" dozentId="Kelter" />
+         <DURCHFUEHRUNG semester="2005s" dozentId="Kelter" />
+         <DURCHFUEHRUNG semester="2006s" dozentId="Kelter" />
+         <DURCHFUEHRUNG semester="2007s" dozentId="Kelter" />
+         <DURCHFUEHRUNG semester="2008s" dozentId="Kelter" />
+         <DURCHFUEHRUNG semester="2009s" dozentId="Kelter" />
+         <VERANTWORTLICHER dozentId="Kelter" />
+         <VERANTWORTLICHE_FG>PI</VERANTWORTLICHE_FG>
+         <SPRACHE>Deutsch</SPRACHE>
+         <VORAUSSETZUNGEN_FORMAL />
+         <BM_NIVEAU>Master</BM_NIVEAU>
+         <VORAUSSETZUNGEN_INHALTLICH>Inhalte der Vorlesung Datenbanksysteme I</VORAUSSETZUNGEN_INHALTLICH>
+         <INHALT>Thematische Schwerpunkte sind: 
+         <ul>
+            <li>Objektorientierte Datenbanken</li>
+            <li>Transportdateien, XML und XML-Anfragesprachen</li>
+            <li>Zugriffskontrollen</li>
+            <li>Transaktionen, Concurrency Control, Recovery</li>
+         </ul>
+         </INHALT>
+         <LERNZIELE>
+            <ul>
+               <li>Kennenlernen weiterer Datenbankmodelle (objektorientiert, semistrukturiert) und deren Unterschiede zum relationalen Datenbankmodell; Sinn und Einsatzbereich dieser Datenbankmodelle einschätzen können</li>
+               <li>Daten in XML modellieren können, konkrete XML-Abfragesprachen anwenden können</li>
+            </ul>
+         </LERNZIELE>
+         <LITERATUR>zu jedem Themenbereich Einzelskripten, die im WWW frei zu Verfügung stehen 
+         <p />
+         zusätzlich diverse Standards und Hintergrundliteratur zu XML und XML-Abfragesprachen über www.xml.org</LITERATUR>
+         <PRUEFUNGSFORM>
+         </PRUEFUNGSFORM>
+         <ANMERKUNGEN>
+         </ANMERKUNGEN>
+      </LEHRVERANSTALTUNG>
+      <LEHRVERANSTALTUNG>
+         <LEHRVERANSTALTUNGSNAME>Softwaretechnik I</LEHRVERANSTALTUNGSNAME>
+         <LEHRVERANSTALTUNGSKUERZEL>ST_I</LEHRVERANSTALTUNGSKUERZEL>
+         <LEISTUNGSPUNKTE anzahl="4" />
+         <LEHRFORM sws_umfang="2">Vorlesung</LEHRFORM>
+         <LEHRFORM sws_umfang="1">Übung</LEHRFORM>
+         <DURCHFUEHRUNG semester="2004w" dozentId="Kelter" />
+         <DURCHFUEHRUNG semester="2005w" dozentId="Kelter" />
+         <DURCHFUEHRUNG semester="2006w" dozentId="Kelter" />
+         <DURCHFUEHRUNG semester="2007w" dozentId="Kelter" />
+         <DURCHFUEHRUNG semester="2008w" dozentId="Kelter" />
+         <DURCHFUEHRUNG semester="2009w" dozentId="Kelter" />
+         <VERANTWORTLICHER dozentId="Kelter" />
+         <VERANTWORTLICHE_FG>PI</VERANTWORTLICHE_FG>
+         <SPRACHE>deutsch</SPRACHE>
+         <VORAUSSETZUNGEN_FORMAL />
+         <BM_NIVEAU>Bachelor</BM_NIVEAU>
+         <VORAUSSETZUNGEN_INHALTLICH>
+            <ul>
+               <li>gute Programmierkenntnisse gemäß der Vorlesung ``Einführung in die Informatik''</li>
+               <li>Programmierpraktikum (daraus Grundkenntnisse im Konfigurationsmanagement, praktische Erfahrung mit CVS, Kenntnis wichtiger Systemarchitekturen (insb. 3- und 5-Schichtenarchitektur von Informationssystemen), zusätzliche Programmiererfahrung in Java</li>
+            </ul>
+         </VORAUSSETZUNGEN_INHALTLICH>
+         <INHALT>Die Vorlesung behandelt Methoden und Techniken zur kosteneffizienten Entwicklung qualitativ hochwertiger Software. Die wichtigsten Einzelthemen sind: 
+         <ul>
+            <li>Der SW-Entwicklungsprozeß und Vorgehensmodelle</li>
+            <li>Methoden der Systemanalyse</li>
+            <li>Datenmodellierung mit Entity-Relationship-Diagrammen</li>
+            <li>Modellierung mit der Unified Modelling Language (UML) 
+            <ul>
+               <li>Objektorientierte Analyse</li>
+               <li>Zustandsübergangsdiagramme</li>
+               <li>Anwendungsfalldiagramme</li>
+               <li>Interaktionsdiagramme</li>
+            </ul>
+            </li>
+            <li>Entwurf</li>
+            <li>Grundlagen des Projektmanagements</li>
+         </ul>
+         </INHALT>
+         <LERNZIELE>
+            <ul>
+               <li>Verstehen der Probleme, die bei der Analyse der Anforderungen an ein Softwaresystem auftreten</li>
+               <li>die wichtigsten Methoden und Notationsformen in der Systemanalyse, insb. unter Nutzung der UML (unified modelling language) überblicken</li>
+               <li>praktische Erfahrung in der Entwicklung von Analyse-Datenmodellen und weiteren UML-Diagrammtypen</li>
+               <li>Analyse-Datenmodelle in relationale Datenbank-Schemata umsetzen können</li>
+            </ul>
+         </LERNZIELE>
+         <LITERATUR>Skript "Softwaretechnik I", ca. 330 Seiten, im WWW frei verfügbar; darin zusätzliche Referenzen</LITERATUR>
+         <PRUEFUNGSFORM>K1; zur Fachprüfung wird nur zugelassen, wer wenigstens 50 % der Übungsaufgaben erfolgreich bearbeitet hat.</PRUEFUNGSFORM>
+         <ANMERKUNGEN>
+         </ANMERKUNGEN>
+      </LEHRVERANSTALTUNG>
+      <LEHRVERANSTALTUNG>
+         <LEHRVERANSTALTUNGSNAME>Softwaretechnik II</LEHRVERANSTALTUNGSNAME>
+         <LEHRVERANSTALTUNGSKUERZEL>ST_II</LEHRVERANSTALTUNGSKUERZEL>
+         <LEISTUNGSPUNKTE anzahl="4" />
+         <LEHRFORM sws_umfang="2">Vorlesung</LEHRFORM>
+         <LEHRFORM sws_umfang="1">Übung</LEHRFORM>
+         <DURCHFUEHRUNG semester="2003s" dozentId="Monecke" />
+         <DURCHFUEHRUNG semester="2004s" dozentId="Niere" />
+         <DURCHFUEHRUNG semester="2005s" dozentId="Niere" />
+         <DURCHFUEHRUNG semester="2006s" dozentId="Niere" />
+         <DURCHFUEHRUNG semester="2007s" dozentId="Niere" />
+         <DURCHFUEHRUNG semester="2008s" dozentId="Niere" />
+         <VERANTWORTLICHER dozentId="Niere" />
+         <VERANTWORTLICHE_FG>PI</VERANTWORTLICHE_FG>
+         <SPRACHE>deutsch</SPRACHE>
+         <VORAUSSETZUNGEN_FORMAL />
+         <BM_NIVEAU>Master</BM_NIVEAU>
+         <VORAUSSETZUNGEN_INHALTLICH>
+            <ul>
+               <li>Vorlesung Softwaretechnik I</li>
+               <li>Programmierpraktikum</li>
+            </ul>
+         </VORAUSSETZUNGEN_INHALTLICH>
+         <INHALT>In der Vorlesung wird aufbauend auf dem Stoff von Softwaretechnik I der Schwerpunkt auf die Entwicklung und insbesondere den Entwurf großer Softwaresysteme gesetzt. Die Schwerpunkte sind u.a.: 
+         <ul>
+            <li>Idioms: Softwaretechnisch gute Implementierungen von Designelementen</li>
+            <li>Entwurfsmuster am Beispiel eines Texteditors</li>
+            <li>Softwarearchitekturen (Strukturen, Interaktive Systeme)</li>
+            <li>Softwarekomponenten (Java Beans)</li>
+            <li>Verteilte Komponenten (Infrastruktur, Webservices, Enterprise Java Beans)</li>
+            <li>Service Oriented Architecture</li>
+            <li>Werkzeugunterstützung</li>
+         </ul>
+         </INHALT>
+         <LERNZIELE>Lernziele sind u.a.: 
+         <ul>
+            <li>Analyse von Softwaresystemen</li>
+            <li>Verstehen und Anwenden von Mustern in der Softwareentwicklung</li>
+            <li>Verständnis für Softwarearchitekturen</li>
+            <li>Softwaretechnische Umsetzung und Abschätzung von Architekturen und Komponentenmodellen</li>
+         </ul>
+         </LERNZIELE>
+         <LITERATUR>
+            <ul>
+               <li>Erich Gamma, Richard Helm, Ralph Johnson, und John Vlissides. Design Patterns: Elements od Reusable Object-Oriented Software. Addison-Wesley Professional Computing Series. Addison-Wesley Publishing Company, New York, NY, 1995.</li>
+               <li>Frank Buschmann, Regine Meunier, Hans Rohnert, Peter Sommerlad, und Michael Stal. Pattern-Oriented Software Architecture, A System of Patterns. John Wiley and Sons Ltd, Chichester, England, 1996.</li>
+               <li>Java Beans: http://java.sun.com/products/javabeans/</li>
+               <li>Enterprise Java Beans: http://java.sun.com/products/ejb/</li>
+               <li>Robert Englander. Developing Java Beans. O'Reilly, 1997.</li>
+               <li>Chikofsky, E. J., and Cross, J. H. II. (1990). Reverse engineering and design recovery: A taxonomy. IEEE Software, 7, 13-17.</li>
+               <li>J. Niere, W. Schäfer, J.P. Wadsack, L. Wendehals, and J. Welsh, Towards Pattern-Based Design Recovery, in Proc. of the 24th International Conference on Software Engineering (ICSE), Orlando, Florida, USA, pp. 338--348, ACM Press, May 2002.</li>
+            </ul>
+         </LITERATUR>
+         <PRUEFUNGSFORM>Wirtschaftsinformatik (alte DPO): schriftlich als Blockklausur 
+         <br />
+         Wirtschaftsinformatik (neue DPO): mündlich 
+         <br />
+         Angewandte Informatik: mündlich 
+         <br />
+         Technische Informatik: mündlich 
+         <br />
+         </PRUEFUNGSFORM>
+         <ANMERKUNGEN>
+         </ANMERKUNGEN>
+      </LEHRVERANSTALTUNG>
+      <LEHRVERANSTALTUNG>
+         <LEHRVERANSTALTUNGSNAME>Rechnernetze I</LEHRVERANSTALTUNGSNAME>
+         <LEHRVERANSTALTUNGSKUERZEL>RN_I</LEHRVERANSTALTUNGSKUERZEL>
+         <LEISTUNGSPUNKTE anzahl="4" />
+         <LEHRFORM sws_umfang="2">Vorlesung</LEHRFORM>
+         <LEHRFORM sws_umfang="1">Übung</LEHRFORM>
+         <DURCHFUEHRUNG semester="2006s" dozentId="Wismüller" />
+         <DURCHFUEHRUNG semester="2007s" dozentId="Wismüller" />
+         <DURCHFUEHRUNG semester="2008s" dozentId="Wismüller" />
+         <DURCHFUEHRUNG semester="2009s" dozentId="Wismüller" />
+         <DURCHFUEHRUNG semester="2010s" dozentId="Wismüller" />
+         <DURCHFUEHRUNG semester="2011s" dozentId="Wismüller" />
+         <VERANTWORTLICHER dozentId="Wismüller" />
+         <VERANTWORTLICHE_FG>BSVS</VERANTWORTLICHE_FG>
+         <SPRACHE>deutsch</SPRACHE>
+         <VORAUSSETZUNGEN_FORMAL />
+         <BM_NIVEAU>Bachelor</BM_NIVEAU>
+         <VORAUSSETZUNGEN_INHALTLICH>keine</VORAUSSETZUNGEN_INHALTLICH>
+         <INHALT>Die Lehrveranstaltung gibt einen einführenden Überblick über Techniken und Protokolle zur Realisierung von Rechnernetzen, wobei der Fokus auf der Internet-Protokollfamilie liegt. Im einzelnen werden folgende Themen behandelt: 
+         <ol>
+            <li>Einführung</li>
+            <ul>
+               <li>Geschichte; Anforderungen an Netze; Leistungsparameter</li>
+            </ul>
+            <li>Protokollhierarchie</li>
+            <ul>
+               <li>ISO-OSI Referenzmodell, Internet-Architektur</li>
+            </ul>
+            <li>Direktverbindungen</li>
+            <ul>
+               <li>Sicherungsprotokolle: Stop-and-Wait, Sliding Window</li>
+               <li>Zugangsprotokolle: CSMA/CD (Ethernet), Token-Ring</li>
+            </ul>
+            <li>Paketvermittlung</li>
+            <ul>
+               <li>Weiterleitungstechniken, LAN Switches</li>
+            </ul>
+            <li>Internetworking</li>
+            <ul>
+               <li>IP: Paketformat, Fragmentierung, Adressierung</li>
+               <li>IP Forwarding</li>
+               <li>ARP: Adress Resolution Protocol</li>
+            </ul>
+            <li>Routing</li>
+            <ul>
+               <li>Statisches und dynamisches Routing</li>
+               <li>Verteiltes dynamisches Routing: Distance Vector Routing, Link State Routing, Dijkstra-Algorithmus</li>
+            </ul>
+            <li>End-to-End Protokolle</li>
+            <ul>
+               <li>UDP</li>
+               <li>TCP: Paketformat, Verbindungsaufbau und -zustände, Flußkontrolle</li>
+            </ul>
+            <li>Überlastkontrolle</li>
+            <ul>
+               <li>Ressourcenzuteilungs-Mechanismen, Queueing-Strategien</li>
+               <li>Überlastkontrolle in TCP</li>
+            </ul>
+            <li>Datendarstellung</li>
+            <ul>
+               <li>Datenformate, Marshaling</li>
+            </ul>
+            <li>Netzwerk-Sicherheit</li>
+            <ul>
+               <li>Anforderungen, Angriffsmöglichkeiten</li>
+               <li>Verschlüsselungsverfahren, kryptographische Hashes, digitale Unterschriften, Zertifikate</li>
+               <li>Authentifizierungsverfahren</li>
+               <li>Anwendungen: PGP, TLS (SSL/HTTPS)</li>
+               <li>Firewalls</li>
+            </ul>
+            <li>Anwendungsprotokolle</li>
+            <ul>
+               <li>DNS, SNMP, HTTP</li>
+            </ul>
+         </ol>
+         </INHALT>
+         <LERNZIELE>Grundlegende Kenntnis des Aufbaus und der Aufgaben von Rechnernetzen, der unterschiedlichen Teilaufgaben der Schichten und Protokolle, sowie der Basis-Algorithmen zur Implementierung von Netzwerkprotokollen, insbesondere Kenntnis der Internet-Prokotolle und ihrer Eigenschaften. Elementare Kenntnisse im Bereich der Netzwerksicherheit. Einschätzung der Eignung von Netzwerktechnologien und Protokollen bei gegebenen Anwendungen / Anforderungen.</LERNZIELE>
+         <LITERATUR>L.L. Peterson, B.S. Davie: Computernetze -- ein modernes Lehrbuch. dpunkt.verlag, 2000.</LITERATUR>
+         <PRUEFUNGSFORM>60-minütige Kompaktklausur</PRUEFUNGSFORM>
+         <ANMERKUNGEN>
+         </ANMERKUNGEN>
+      </LEHRVERANSTALTUNG>
+      <LEHRVERANSTALTUNG>
+         <LEHRVERANSTALTUNGSNAME>Rechnernetze II</LEHRVERANSTALTUNGSNAME>
+         <LEHRVERANSTALTUNGSKUERZEL>RN_II</LEHRVERANSTALTUNGSKUERZEL>
+         <LEISTUNGSPUNKTE anzahl="4" />
+         <LEHRFORM sws_umfang="2">Vorlesung</LEHRFORM>
+         <LEHRFORM sws_umfang="1">Übung</LEHRFORM>
+         <DURCHFUEHRUNG semester="2006w" dozentId="Wismüller" />
+         <DURCHFUEHRUNG semester="2007w" dozentId="Wismüller" />
+         <DURCHFUEHRUNG semester="2008w" dozentId="Wismüller" />
+         <DURCHFUEHRUNG semester="2009w" dozentId="Wismüller" />
+         <DURCHFUEHRUNG semester="2010w" dozentId="Wismüller" />
+         <DURCHFUEHRUNG semester="2011w" dozentId="Wismüller" />
+         <VERANTWORTLICHER dozentId="Wismüller" />
+         <VERANTWORTLICHE_FG>BSVS</VERANTWORTLICHE_FG>
+         <SPRACHE>deutsch</SPRACHE>
+         <VORAUSSETZUNGEN_FORMAL />
+         <BM_NIVEAU>Master</BM_NIVEAU>
+         <VORAUSSETZUNGEN_INHALTLICH>Rechnernetze I, Einführung in die Informatik I / II</VORAUSSETZUNGEN_INHALTLICH>
+         <INHALT>Die Lehrveranstaltung Rechnernetze II ergänzt die Inhalte von Rechnernetze I. Sie stellt einführend Netzwerktechnologien, Protokolle und Algorithmen vor, die in Rechnernetze I nicht oder nur sehr oberflächlich behandelt werden, u.a.: 
+         <ul>
+            <li>Netzwerktechnik: 
+            <ul>
+               <li>Modems, ADSL</li>
+               <li>ATM, schnelles Ethernet</li>
+               <li>Drahtlose Netze: WLAN, Bluetooth</li>
+               <li>Netze für Realzeit- und Automatisierungssysteme: PROFIBUS, CAN-Bus</li>
+               <li>Hochgeschwindigkeitsnetze für Cluster und Hochleistungsrechner</li>
+            </ul>
+            </li>
+            <li>Internetworking: 
+            <ul>
+               <li>Routing-Protokolle (IP-Multicast, Mobile IP, MPLS, NAT)</li>
+               <li>IP Version 6 und Secure IP</li>
+            </ul>
+            </li>
+            <li>Überlastkontrolle und Ressourcenzuteilung 
+            <ul>
+               <li>Überlastvermeidung (RED, TCP Vegas)</li>
+               <li>Quality of Service im Internet</li>
+            </ul>
+            </li>
+            <li>Netzwerkprogrammierung 
+            <ul>
+               <li>Socket-Schnittstelle, Sun RPC</li>
+            </ul>
+            </li>
+            <li>Anwendungen 
+            <ul>
+               <li>Netzwerkmanagement</li>
+               <li>Multimedia-Anwendungen</li>
+               <li>Overlay-Netzwerke</li>
+            </ul>
+            </li>
+         </ul>
+         </INHALT>
+         <LERNZIELE>Vertiefte Kenntnis der Funktionsweise, Stärken und Schwächen gängiger Netzwerktechnologien sowie der im Internet eingesetzten Protokolle. Grundlegende Kenntnisse im Bereich der Netzwerkprogrammierung. Fähigkeit zur Bewertung und Auswahl verschiedener Netzwerktechnologien bei gegebenen Anforderungen bzw. Anwendungen.</LERNZIELE>
+         <LITERATUR>
+            <ul>
+               <li>L.L. Peterson, B.S. Davie: Computernetze -- ein modernes Lehrbuch. dpunkt.verlag, 3. Auflage, 2003.</li>
+               <li>A.S. Tanenbaum: Computer Networks, Fourth Edition. Pearson Education, 2003.</li>
+            </ul>
+         </LITERATUR>
+         <PRUEFUNGSFORM>Mündliche Prüfung</PRUEFUNGSFORM>
+         <ANMERKUNGEN>
+         </ANMERKUNGEN>
+      </LEHRVERANSTALTUNG>
+	  <!-- ... -->
+   </Lehrangebot>
+</FBINFO>
+
+

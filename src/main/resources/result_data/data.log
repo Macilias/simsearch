@@ -1,0 +1,21 @@
+<div class="item">
+  <img class="content" src="pic/xml_current.png" title="BAUMSIGNATUREN XPATH.XML (100)" href="../test_data/Baumsignaturen_XPath.xml"/>
+</div>
+<div class="item">
+  <img class="content" src="pic/xml_candidate.png" title="NANO EXAMPLE A.XML (66)" href="../test_data/nano_example_a.xml"/>
+</div>
+<div class="item">
+  <img class="content" src="pic/xml_candidate.png" title="BAUMSIGNATUREN XPATH.XML (60)" href="../test_data/Baumsignaturen_XPath.xml"/>
+</div>
+<div class="item">
+  <img class="content" src="pic/xml_candidate.png" title="NANO EXAMPLE B.XML (60)" href="../test_data/nano_example_b.xml"/>
+</div>
+<div class="item">
+  <img class="content" src="pic/xml_candidate.png" title="MINI EXAMPLE1.XML (50)" href="../test_data/mini_example1.xml"/>
+</div>
+<div class="item">
+  <img class="content" src="pic/xml_candidate.png" title="NANO READ IN BEFORE.XML (45)" href="..//Users/maciekn/Dropbox/SimilaritySearch/test_data/nano_READ_IN_BEFORE.xml"/>
+</div>
+<div class="item">
+  <img class="content" src="pic/xml_candidate.png" title="MINI EXAMPLE3.XML (22)" href="../test_data/mini_example3.xml"/>
+</div>

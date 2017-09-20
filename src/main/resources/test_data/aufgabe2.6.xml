@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE Pruefliste SYSTEM "pruefungen.dtd">
+<Pruefliste Semester="SS05" Fach="DatenbanksystemeII">
+	<Pruefling lfdNr="1">
+		<Name>Markus Hofmann</Name>
+		<Matrikelnr>keine Ahnung</Matrikelnr>
+		<Punkte>100</Punkte>
+		<Note>1</Note>
+	</Pruefling>
+	<Pruefling lfdNr="2">
+		<Name>Björn Borggräfe</Name>
+		<Matrikelnr>681571</Matrikelnr>
+		<Punkte>100</Punkte>
+		<Note>1</Note>
+	</Pruefling>
+	<Pruefling>
+		<Name>Steffen Rumpf</Name>
+		<Matrikelnr>677909</Matrikelnr>
+		<Punkte>100</Punkte>
+		<Note>1</Note>
+	</Pruefling>
+</Pruefliste>

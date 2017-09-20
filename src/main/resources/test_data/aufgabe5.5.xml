@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<!DOCTYPE MesseEinsaetze [
+    <!ELEMENT MesseEinsaetze (MesseEinsatz)* >
+	<!ELEMENT MesseEinsatz (Mitarbeiter)* >
+    <!ATTLIST MesseEinsatz
+    		MesseName CDATA #REQUIRED
+            MesseOrt CDATA #REQUIRED
+            MesseZeit CDATA #REQUIRED>
+    <!ELEMENT Mitarbeiter (Name, Vorname, Anrede, Fachgebiete)>
+    <!ATTLIST Mitarbeiter
+    		vonZeit CDATA #REQUIRED
+            bisZeit CDATA #REQUIRED>
+    <!ELEMENT Name (#PCDATA)>
+    <!ELEMENT Vorname (#PCDATA)>
+    <!ELEMENT Anrede (#PCDATA)>
+    <!ELEMENT Fachgebiete (#PCDATA)>
+]>
+<MesseEinsaetze>
+    <MesseEinsatz MesseName="Cebit" MesseOrt="Hannover" 
+        MesseZeit="13.-20.Maerz">
+		<Mitarbeiter vonZeit="13.3." bisZeit="15.3.">
+            <Name>Mustermann</Name>
+            <Vorname>Emil</Vorname>
+            <Anrede>Herr</Anrede>
+            <Fachgebiete>XML, XSLT</Fachgebiete>
+        </Mitarbeiter>
+        <Mitarbeiter vonZeit="16.3." bisZeit="20.3.">
+            <Name>Michael</Name>
+            <Vorname>Maier</Vorname>
+            <Anrede>Herr</Anrede>
+            <Fachgebiete>Java, Servlets</Fachgebiete>
+        </Mitarbeiter>
+	</MesseEinsatz>    	    
+    <MesseEinsatz MesseZeit="15.6.-18.6." MesseName="Linux Tage" 
+        MesseOrt="Leibzig">
+        <Mitarbeiter vonZeit="15.6." bisZeit="16.6.">
+            <Name>Elsa</Name>
+            <Vorname>Mueller</Vorname>
+            <Anrede>Frau</Anrede>
+            <Fachgebiete>Shell Programmierung</Fachgebiete>
+        </Mitarbeiter>
+        <Mitarbeiter vonZeit="15.6." bisZeit="18.6.">
+            <Name>Maria</Name>
+            <Vorname>Hilfenstein</Vorname>
+            <Anrede>Frau</Anrede>
+            <Fachgebiete>Netzwerke, Server Administration</Fachgebiete>
+        </Mitarbeiter>
+    </MesseEinsatz>
+</MesseEinsaetze>

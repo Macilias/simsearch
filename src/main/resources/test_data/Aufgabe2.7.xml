@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Telefonverz [
+	<!ELEMENT Telefonverz (Abteilung)* >
+	<!ELEMENT Abteilung (Eintrag)+ >
+	<!ATTLIST Abteilung AbtNr ID #REQUIRED>
+	<!ELEMENT Eintrag (Name, TelNr)>
+	<!ELEMENT Name (#PCDATA)>
+	<!ELEMENT TelNr (#PCDATA)>
+]>
+<Telefonverz>
+	<Abteilung AbtNr="a1"> <!-- Typ Id muss mit einem Buchstaben beginnen -->
+		<Eintrag>
+			<Name>Meier</Name>
+			<TelNr>789789</TelNr>
+		</Eintrag>
+		<Eintrag>
+			<Name>Schmidt</Name>
+			<TelNr>TelNr</TelNr>
+		</Eintrag>
+	</Abteilung>
+	<Abteilung AbtNr="a2">
+		<Eintrag>
+            <Name/>
+            <TelNr/>
+        </Eintrag>
+	</Abteilung>
+</Telefonverz>

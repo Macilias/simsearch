@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE Pruefliste SYSTEM "pruefungen.dtd">
+<Pruefliste Semester="SS05" Fach="Wirtschaftsinformatik">
+	<Pruefling lfdNr="1">
+		<Name>Hans Wurst</Name>
+		<Matrikelnr>534123</Matrikelnr>
+		<Punkte>55</Punkte>
+		<Note>1,3</Note>
+	</Pruefling>
+	<Pruefling lfdNr="2">
+		<Name>Michael Maier</Name>
+		<Matrikelnr>543210</Matrikelnr>
+		<Punkte>30</Punkte>
+		<Note>4,0</Note>
+	</Pruefling>
+	<Pruefling lfdNr="3">
+		<Name>Blub Bla</Name>
+		<Matrikelnr>123456</Matrikelnr>
+		<Punkte>40</Punkte>
+		<Note>2,1</Note>
+	</Pruefling>
+</Pruefliste>

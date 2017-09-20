@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    
+    <meta http-equiv="content-type" content="text/html" />
+    <meta name="author" content="Maciej Niemczyk"/>
+    <meta name="description" content="Live Results of SimSearch Framework" />
+    <link rel="stylesheet" title="Standard" href="styles.css" type="text/css" media="screen" />
+
+    <title>SimilaritySearch - Results</title>
+    <script language="JavaScript" type="text/javascript" src="ContentFlow/contentflow.js" load="black"></script>
+
+</head>
+<body>
+   <h1 id="title"><img src="SimSearch.png"/></h1>
+   <h4 style="text-align: center; margin: 5px 0 5px 0; text-decoration: none;">Done by Maciej Niemczyk @ University of Siegen</h4>
+<script src="prototype.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+var ajax_cf = new ContentFlow('ajax_cf', {reflectionColor: "#000000", circularFlow: false});
+var updater;
+var zaehler = 0;
+var zaehler_prev = 0;
+var scripts = new Array('TEST','TEST2');
+
+function addPictures(t){
+        var ic = document.getElementById('itemcontainer');
+        var is = ic.getElementsByTagName('img');
+        for (var i=0; i< is.length; i++) {
+            rmItem(i);
+            ajax_cf.addItem(is[i], i);
+        }
+}
+
+function getContent() {
+    //document.getElementById('OutPrint').innerHTML += " Zaehler = "+zaehler+"; ";
+     new Ajax.Updater('itemcontainer', 'data.log', {
+        onComplete: addPictures
+    });
+    return false;
+}
+
+function reloadScript() {
+//   ajax_cf = new ContentFlow('ajax_cf', {reflectionColor: "#000000", circularFlow: false});
+   
+   //document.getElementById('OutPrint').innerHTML = "RELOAD";
+    updater = new Ajax.Updater('scriptcontainer', 'script.js', {
+        evalScripts: true
+    });
+    //getContent();
+    return false;
+}
+
+function addItem(tit, file, pic, csim, ssim, pos){
+   alert("a hier a bin ich");
+   //document.getElementById('OutPrint').innerHTML += "Hinzufügen von "+title+" an der Position "+pos;
+   //var element = "<div class=\"item\"> <img class=\"content\" src=\""+unescape(pic)+"\" title=\""+unescape(title)+" ("+csim+")"+"\" href=\""+unescape(file)+"\"/> </div>";
+
+   //alert(element);
+   try {
+      //ajax_cf.addItem(new Element('item', { src:pic, title:title+" ("+csim+")", href:file }),pos);
+      var ele = new new Element('item', { 
+         src:pic, 
+         title:tit,
+         id:'img',
+         href:file
+      });
+      
+      document.getElementById('itemcontainer').appendChild(ele);
+      ajax_cf.addItem(ele,pos);
+   } catch (e) {
+      var err = document.createTextNode(e); 
+      document.getElementById('OutPrint').appendChild(err);
+      alert(e);
+   }
+}
+
+function addItemHTML(html){
+   //document.getElementById('OutPrint').innerHTML += "Hinzufügen von "+title+" an der Position "+pos;
+   //var element = "<div class=\"item\"> <img class=\"content\" src=\""+unescape(pic)+"\" title=\""+unescape(title)+" ("+csim+")"+"\" href=\""+unescape(file)+"\"/> </div>";
+
+   //alert(element);
+   try {
+      //ajax_cf.addItem(new Element('item', { src:pic, title:title+" ("+csim+")", href:file }),pos);
+      
+      document.getElementById('itemcontainer').appendChild(html);
+      ajax_cf.addItem(ele,pos);
+   } catch (e) {
+      var err = document.createTextNode(e); 
+      document.getElementById('OutPrint').appendChild(err);
+      alert(e);
+   }
+}
+
+function rmItem(pos){
+   //document.getElementById('OutPrint').innerHTML += "remItem("+pos+"); ";
+   ajax_cf.rmItem(pos);
+}
+
+function loadScripts(scripts) {
+   //alert("test ohne forschleife: scripts[0]="+scripts[0]);
+   //alert("sinnlos");
+   for( var i = zaehler_prev; i < scripts.size(); i++ ){
+      //alert(scripts[i]);
+      //document.getElementById('OutPrint').innerHTML = "<br>"+scripts[i];
+      var err = document.createTextNode("</br>"+scripts[i]); 
+      document.getElementById('OutPrint').appendChild(err);
+      try {
+         updater = new Ajax.Updater('scriptcontainer', scripts[i], {
+            evalScripts: true
+         });
+      } catch (e) {
+         var err = document.createTextNode(e); 
+         document.getElementById('OutPrint').appendChild(err);
+         alert(e);
+      }
+    }
+    return false;
+}
+
+//function loadScripts() {
+   //alert('bin drin!!!');
+   //alert("test ohne forschleife: scripts[0]="+scripts[0]);
+   //for( var i = zaehler_prev; i < scripts.size(); i++ ){
+   //   alert(scripts[i]);
+   //   updater = new Ajax.Updater('scriptcontainer', scripts[i], {
+   //      evalScripts: true
+   //   });
+    //}
+//    return false;
+//}
+
+
+function pausecomp(millis) {
+   var date = new Date();
+   var curDate = null;
+
+   do { curDate = new Date(); } 
+   while(curDate-date < millis);
+}
+//<script type="text/javascript">getContent()<\/script>
+//<div id="OutPrint" style="margin: 125px 0 125px 0; text-decoration: none;"></div>
+</script>
+
+<form>
+    <div style="margin: 50px 0px 0px 0px">
+    </div>
+</form>
+
+<div id="itemcontainer" style="height: 0px; width: 0px; visibility: hidden"></div>
+<div id="scriptcontainer" style="height: 0px; width: 0px; visibility: hidden"></div>
+
+<script type="text/javascript">reloadScript()</script>
+<div id="ajax_cf" class="ContentFlow">
+    <div class="flow"> </div>
+    <div class="globalCaption"></div>
+    <div class="scrollbar">
+       <div class="preButton"></div>
+       <div class="nextButton"></div>
+       <div class="slider"><div class="position"></div></div>
+   </div>
+</div>
+
+
+</body>
+</html>

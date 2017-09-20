@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NanoBeispiel>
+   <MinKomponente>
+      <Attribut1>0</Attribut1>
+      <Attribut2>0</Attribut2>
+   </MinKomponente>
+   <MaxKomponente>
+      <Attribut1>3</Attribut1>
+      <Attribut2>3</Attribut2>
+   </MaxKomponente>
+</NanoBeispiel>

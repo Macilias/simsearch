@@ -1,0 +1,10 @@
+
+<div class="item">
+    <img class="content" src="pic/xml256_256.png" title="Mini Example 1" href="test_data/mini_example1.xml"/>
+</div>
+<div class="item">
+    <img class="content" src="pic/xml256_256.png" title="Mini Example 2" href="test_data/mini_example2.xml"/>
+</div>
+<div class="item">
+    <img class="content" src="pic/xml256_256.png" title="Mini Example 3" href="test_data/mini_example3.xml"/>
+</div>

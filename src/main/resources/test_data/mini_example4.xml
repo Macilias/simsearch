@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<C1>
+	<C2.1>
+		<C3.1>
+			<Att>1</Att>
+			<Att>2</Att>
+			<Att>3</Att>
+			<Att>4</Att>
+		</C3.1>
+		<C3.2>
+			<C4.1>
+				<C5.1>
+					<Att>1</Att>
+					<Att>2</Att>
+				</C5.1>
+			</C4.1>
+		</C3.2>
+  	</C2.1>
+	<C2.2>
+		<C3.3>
+			<Att>1</Att>
+			<Att>2</Att>
+			<Att>3</Att>
+			<Att>4</Att>
+		</C3.3>
+		<C3.4>
+			<C4.2>
+				<C5.2>
+					<Att>1</Att>
+					<Att>2</Att>
+				</C5.2>
+			</C4.2>
+		</C3.4>
+  	</C2.2>
+</C1>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOGS id="Example Playlist">
+    <CATALOG id="Nr1Hits">
+        <CD>
+            <TITLE>The dock of the bay</TITLE>
+            <ARTIST>Otis Redding</ARTIST>
+            <COUNTRY>USA</COUNTRY>
+            <COMPANY>Atlantic</COMPANY>
+            <PRICE>7.90</PRICE>
+            <YEAR>1987</YEAR>
+        </CD>
+        <CD>
+            <TITLE>Red</TITLE>
+            <ARTIST>The Communards</ARTIST>
+            <COUNTRY>UK</COUNTRY>
+            <COMPANY>London</COMPANY>
+            <PRICE>7.80</PRICE>
+            <YEAR>1987</YEAR>
+        </CD>
+        <CD>
+            <TITLE>Unchain my heart</TITLE>
+            <ARTIST>Joe Cocker</ARTIST>
+            <COUNTRY>USA</COUNTRY>
+            <COMPANY>EMI</COMPANY>
+            <PRICE>8.20</PRICE>
+            <YEAR>1987</YEAR>
+        </CD>
+    </CATALOG>
+		<CATALOG id="Nr2Hits">
+		  <CD>
+		      <TITLE>Hide your heart</TITLE>
+		      <ARTIST>Bonnie Tyler</ARTIST>
+		      <COUNTRY>UK</COUNTRY>
+		      <COMPANY>CBS Records</COMPANY>
+		      <PRICE>9.90</PRICE>
+		      <YEAR>1988</YEAR>
+		 </CD>
+		 <CD>
+		      <TITLE>Red</TITLE>
+		      <ARTIST>The Communards</ARTIST>
+		      <COUNTRY>UK</COUNTRY>
+		      <COMPANY>London</COMPANY>
+		      <PRICE>7.80</PRICE>
+		      <YEAR>1987</YEAR>
+		 </CD>
+	</CATALOG>  
+</CATALOGS>
+
+
+
+
+

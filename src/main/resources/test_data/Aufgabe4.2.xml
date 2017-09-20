@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<vortrag 
+    	xmlns:xHtml="xhtml"
+    	xmlns="eigene">
+	<titel> Über den Sinn un Zweck von Namensräumen</titel>
+	<xHtml:img src="http://www.irgend.wo/xml.jpg" alt="Namensräume"/>
+	<uebersicht>
+		<xHtml:ol>
+			<xHtml:li> Einführung </xHtml:li>
+			<xHtml:li> Namensräume </xHtml:li>
+			<xHtml:li> <referenzen/> </xHtml:li>
+			<xHtml:li> Schlußbemerkungen </xHtml:li>
+		</xHtml:ol>
+	</uebersicht>
+</vortrag>

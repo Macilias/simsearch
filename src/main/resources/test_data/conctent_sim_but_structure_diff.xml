@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zwei_ähnliche_Aufträge>
+	<Auftrag1_flach_strukuriert>
+		<Kunden_ID>BMW</Kunden_ID>
+		<Kunde_mehr>Niederlassung München</Kunde_mehr>
+		<Auftrags_Eingang>19.07.2010</Auftrags_Eingang>
+		<Sachbearbeiter>S.Meyer</Sachbearbeiter>
+		<Auftragsposition1>Kugellager</Auftragsposition1>
+		<Auftragsposition1_Material>Stahl</Auftragsposition1_Material>
+		<Auftragsposition1_Durchmesser>50mm</Auftragsposition1_Durchmesser>
+		<Auftragsposition1_Stückzahl>10000000</Auftragsposition1_Stückzahl>
+		<Auftragsposition2>Unterlegscheibe</Auftragsposition2>
+		<Auftragsposition2_Material>Stahl</Auftragsposition2_Material>
+		<Auftragsposition2_Durchmesser>1cm</Auftragsposition2_Durchmesser>
+		<Auftragsposition2_Stückzahl>20000000</Auftragsposition2_Stückzahl>
+	</Auftrag1_flach_strukuriert>
+	<Auftrag1_tief_strukuriert>
+		<Auftrageber>
+			<Kunden_ID>BMW</Kunden_ID>
+			<Kunden_Niederlassung>Niederlassung München</Kunden_Niederlassung>
+		</Auftrageber>
+		<Bearbeitet_Von>
+			<Mitarbeiter_ID>S.Meyer</Mitarbeiter_ID>
+		</Bearbeitet_Von>
+		<Auftragspositionen>
+			<Position1>
+				<Bezeichnung>Kugellager</Bezeichnung>
+				<Material>Stahl</Material>
+				<Durchmesser>50mm</Durchmesser>
+				<Stückzahl>10000000</Stückzahl>
+			</Position1>
+			<Position2>
+				<Bezeichnung>Unterlegscheibe</Bezeichnung>
+				<Material>Stahl</Material>
+				<Durchmesser>1cm</Durchmesser>
+				<Stückzahl>20000000</Stückzahl>
+			</Position2>
+		</Auftragspositionen>
+	</Auftrag1_tief_strukuriert>
+</zwei_ähnliche_Aufträge>

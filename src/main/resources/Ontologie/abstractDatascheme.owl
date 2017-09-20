@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY aA "http://www.analisa.eu/abstractAttribute#" >
+    <!ENTITY aD "http://www.analisa.eu/abstractDatatype#" >
+    <!ENTITY aS "http://www.analisa.eu/abstractDatascheme#" >
+    <!ENTITY sS "http://www.analisa.eu/SimSearch#" >  
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.analisa.eu/abstractDatascheme#"
+     xml:base="http://www.analisa.eu/abstractDatascheme"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:aA="http://www.analisa.eu/abstractAttribute#"
+     xmlns:aD="http://www.analisa.eu/abstractDatatype#"
+     xmlns:aS="http://www.analisa.eu/abstractDatascheme#"
+     xmlns:sS="http://www.analisa.eu/SimSearch#"
+     xmlns:abstractDatascheme="http://www.analisa.eu/abstractDatascheme#">
+    <owl:Ontology rdf:about=""/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.analisa.eu/abstractDatascheme#equivalentIndividual -->
+
+    <owl:ObjectProperty rdf:about="#equivalentIndividual">
+        <rdf:type rdf:resource="&owl;ReflexiveProperty"/>
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:subPropertyOf rdf:resource="#synonymIndividual"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.analisa.eu/abstractDatascheme#hasChild -->
+
+    <owl:ObjectProperty rdf:about="#hasChild">
+        <rdfs:range rdf:resource="#Component"/>
+        <rdfs:domain rdf:resource="#Component"/>
+        <rdfs:subPropertyOf rdf:resource="#hasComponent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.analisa.eu/abstractDatascheme#hasComponent -->
+
+    <owl:ObjectProperty rdf:about="#hasComponent">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:range rdf:resource="#Component"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.analisa.eu/abstractDatascheme#hasParent -->
+
+    <owl:ObjectProperty rdf:about="#hasParent">
+        <rdfs:range rdf:resource="#Component"/>
+        <rdfs:domain rdf:resource="#Component"/>
+        <owl:inverseOf rdf:resource="#hasChild"/>
+        <rdfs:subPropertyOf rdf:resource="#isComponentOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.analisa.eu/abstractDatascheme#isComponentOf -->
+
+    <owl:ObjectProperty rdf:about="#isComponentOf">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:range rdf:resource="#Component"/>
+        <owl:inverseOf rdf:resource="#hasComponent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.analisa.eu/abstractDatascheme#similarIndividual -->
+
+    <owl:ObjectProperty rdf:about="#similarIndividual">
+        <rdf:type rdf:resource="&owl;IrreflexiveProperty"/>
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:subPropertyOf rdf:resource="#synonymIndividual"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.analisa.eu/abstractDatascheme#synonymIndividual -->
+
+    <owl:ObjectProperty rdf:about="#synonymIndividual">
+        <rdf:type rdf:resource="&owl;SymmetricProperty"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <owl:ObjectProperty rdf:about="&owl;topObjectProperty"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.analisa.eu/abstractDatascheme#from_XML_FILE -->
+
+    <owl:DatatypeProperty rdf:about="#from_XML_FILE">
+        <rdfs:range rdf:resource="&rdfs;Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.analisa.eu/abstractDatascheme#hasChildCount -->
+
+    <owl:DatatypeProperty rdf:about="#hasChildCount">
+        <rdfs:range rdf:resource="&xsd;int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.analisa.eu/abstractDatascheme#hasValue -->
+
+    <owl:DatatypeProperty rdf:about="#hasValue"/>
+    
+
+
+    <!-- http://www.analisa.eu/abstractDatascheme#isCollection -->
+
+    <owl:DatatypeProperty rdf:about="#isCollection">
+        <rdfs:range rdf:resource="&xsd;boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.analisa.eu/abstractDatascheme#Attribute -->
+
+    <owl:Class rdf:about="#Attribute">
+        <rdfs:subClassOf rdf:resource="#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.analisa.eu/abstractDatascheme#Component -->
+
+    <owl:Class rdf:about="#Component">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.analisa.eu/abstractDatascheme#Hybrid -->
+
+    <owl:Class rdf:about="#Hybrid">
+        <rdfs:subClassOf rdf:resource="#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.analisa.eu/abstractDatascheme#Komplex -->
+
+    <owl:Class rdf:about="#Komplex">
+        <rdfs:subClassOf rdf:resource="#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.analisa.eu/abstractDatascheme#RootComponent -->
+
+    <owl:Class rdf:about="#RootComponent">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="#Hybrid"/>
+                            <rdf:Description rdf:about="#Komplex"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="#from_XML_FILE"/>
+                        <owl:someValuesFrom rdf:resource="&rdfs;Literal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="#Component"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="&owl;Thing"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 2.2.1.1138) http://owlapi.sourceforge.net -->
+

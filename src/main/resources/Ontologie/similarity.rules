@@ -1,0 +1,26 @@
+################################################################
+#------------------SIMILARITY RULES - DEUTSCH - ---------------#
+################################################################
+
+
+#ALTE BEISPIELE:
+#[steht_vor: (?X rdf:type g:SatzentitŠt), (?Y rdf:type g:SatzentitŠt), notEqual(?X,?Y) ->
+#	    [ (?X g:steht_vor ?Y) <- (?X g:position_in_Satz ?Xp), (?Y g:position_in_Satz ?Yp), lessThan(?Xp, ?Yp)]
+#]
+
+#Funktioniert auf allen Elementen, welche Ÿber das PrŠdikat position_in_Satz verfŸgen, geht aber vielleicht mit obigen effizienter
+#[steht_vor:  (?X g:position_in_Satz ?Xp) (?Y g:position_in_Satz ?Yp) notEqual(?X, ?Y) lessThan(?Xp, ?Yp) -> (?X g:steht_vor ?Y) ]
+
+#Component
+#[Component: (?X aP:hasChild ?Y) -> (?X aP:hasComponent ?Y)]
+#[Component: (?X aP:hasParent ?Y) -> (?X aP:isComponentOf ?Y)]
+
+#Parent & Child
+#[Parent: (?X aP:hasChild ?Y) -> (?Y aP:hasParent ?X)]
+
+#Multiple Childs: Aus den SetVerhalten (keine mehrfache Parent/Child Beziehung) soll ein ListenVerhalten symuliert werden
+#[MultipleChild: (?X aP:hasMultipleChild ?Y) -> (?X aP:hasChild ?Y)]
+
+#komplex Childs
+#[hasComplexChilds: (?X aP:hasChild ?Y), notDType(?Y, aP:Attribute) -> (?X aP:hasComplexChild true)]
+#notDType(?Y, aP:Attribute)  not(?Y rdf:type aP:Attribute)

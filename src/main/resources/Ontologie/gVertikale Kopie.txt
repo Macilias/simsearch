@@ -1,0 +1,192 @@
+CVertikale0: V15(E1(S1)E2(1S10)E3((1S1)9(1A))E4(1S10)E5((1C3)9(1A))E6(3(1S10))E7((1C3)9(1A)10(2A)(3S1)9(3A))E8(3(1S10)(2S10))E9((1C2)9(1A)(2C2)9(2A)10(3A)(4C5)9(4A))E10(2(1S10)2(2S10)5(3S10))E11((1C5)9(1A)(2C3)9(2A)10(3A)(4C5)9(4A)(5C2)9(5A)(6C2)9(6A)(7C4)9(7A)10(8A)(9C3)9(9A))E12(5(1S10)3(2S10)5(3S10)2(4S10)2(5S10)4(6S10)3(7S10))E13((1C5)9(1A)(2C2)9(2A)(3C3)9(3A)(4S1)9(4A)(5S1)9(5A)(6C4)9(6A)(7C2)9(7A)(8S1)9(8A)10(9A)(10C4)9(10A)10(11A)(12C3)9(12A)10(13A)(14C4)9(14A)10(15A)(16C3)9(16A)(17C3)9(17A)10(18A)(19C4)9(19A)(20C3)9(20A)(21C4)9(21A)(22C2)9(22A)(23C3)9(23A)(24S1)9(24A))E14(5(1S10)2(2S10)3(3S10)(4S10)(5S10)4(6S10)2(7S10)(8S10)4(9S10)3(10S10)4(11S10)3(12S10)3(13S10)4(14S10)3(15S10)4(16S10)2(17S10)3(18S10)(19S10))E15(10(1A)10(2A)10(3A)10(4A)10(5A)10(6A)10(7A)10(8A)10(9A)10(10A)10(11A)10(12A)10(13A)10(14A)10(15A)10(16A)10(17A)10(18A)10(19A)10(20A)10(21A)10(22A)10(23A)10(24A)10(25A)10(26A)10(27A)10(28A)10(29A)10(30A)10(31A)10(32A)10(33A)10(34A)10(35A)10(36A)10(37A)10(38A)10(39A)10(40A)10(41A)10(42A)10(43A)10(44A)10(45A)10(46A)10(47A)10(48A)10(49A)10(50A)10(51A)10(52A)10(53A)))
+http://www.analisa.eu/abstractDatatype#nodelist_C1na
+CVertikale1: V14(E1(S10)E2((1S1)9(1A))E3(1S10)E4((1C3)9(1A))E5(3(1S10))E6((1C3)9(1A)10(2A)(3S1)9(3A))E7(3(1S10)(2S10))E8((1C2)9(1A)(2C2)9(2A)10(3A)(4C5)9(4A))E9(2(1S10)2(2S10)5(3S10))E10((1C5)9(1A)(2C3)9(2A)10(3A)(4C5)9(4A)(5C2)9(5A)(6C2)9(6A)(7C4)9(7A)10(8A)(9C3)9(9A))E11(5(1S10)3(2S10)5(3S10)2(4S10)2(5S10)4(6S10)3(7S10))E12((1C5)9(1A)(2C2)9(2A)(3C3)9(3A)(4S1)9(4A)(5S1)9(5A)(6C4)9(6A)(7C2)9(7A)(8S1)9(8A)10(9A)(10C4)9(10A)10(11A)(12C3)9(12A)10(13A)(14C4)9(14A)10(15A)(16C3)9(16A)(17C3)9(17A)10(18A)(19C4)9(19A)(20C3)9(20A)(21C4)9(21A)(22C2)9(22A)(23C3)9(23A)(24S1)9(24A))E13(5(1S10)2(2S10)3(3S10)(4S10)(5S10)4(6S10)2(7S10)(8S10)4(9S10)3(10S10)4(11S10)3(12S10)3(13S10)4(14S10)3(15S10)4(16S10)2(17S10)3(18S10)(19S10))E14(10(1A)10(2A)10(3A)10(4A)10(5A)10(6A)10(7A)10(8A)10(9A)10(10A)10(11A)10(12A)10(13A)10(14A)10(15A)10(16A)10(17A)10(18A)10(19A)10(20A)10(21A)10(22A)10(23A)10(24A)10(25A)10(26A)10(27A)10(28A)10(29A)10(30A)10(31A)10(32A)10(33A)10(34A)10(35A)10(36A)10(37A)10(38A)10(39A)10(40A)10(41A)10(42A)10(43A)10(44A)10(45A)10(46A)10(47A)10(48A)10(49A)10(50A)10(51A)10(52A)10(53A)))
+http://www.analisa.eu/abstractDatatype#node_C2na
+CVertikale2: V13(E1(S1)E2(1S10)E3((1C3)9(1A))E4(3(1S10))E5((1C3)9(1A)10(2A)(3S1)9(3A))E6(3(1S10)(2S10))E7((1C2)9(1A)(2C2)9(2A)10(3A)(4C5)9(4A))E8(2(1S10)2(2S10)5(3S10))E9((1C5)9(1A)(2C3)9(2A)10(3A)(4C5)9(4A)(5C2)9(5A)(6C2)9(6A)(7C4)9(7A)10(8A)(9C3)9(9A))E10(5(1S10)3(2S10)5(3S10)2(4S10)2(5S10)4(6S10)3(7S10))E11((1C5)9(1A)(2C2)9(2A)(3C3)9(3A)(4S1)9(4A)(5S1)9(5A)(6C4)9(6A)(7C2)9(7A)(8S1)9(8A)10(9A)(10C4)9(10A)10(11A)(12C3)9(12A)10(13A)(14C4)9(14A)10(15A)(16C3)9(16A)(17C3)9(17A)10(18A)(19C4)9(19A)(20C3)9(20A)(21C4)9(21A)(22C2)9(22A)(23C3)9(23A)(24S1)9(24A))E12(5(1S10)2(2S10)3(3S10)(4S10)(5S10)4(6S10)2(7S10)(8S10)4(9S10)3(10S10)4(11S10)3(12S10)3(13S10)4(14S10)3(15S10)4(16S10)2(17S10)3(18S10)(19S10))E13(10(1A)10(2A)10(3A)10(4A)10(5A)10(6A)10(7A)10(8A)10(9A)10(10A)10(11A)10(12A)10(13A)10(14A)10(15A)10(16A)10(17A)10(18A)10(19A)10(20A)10(21A)10(22A)10(23A)10(24A)10(25A)10(26A)10(27A)10(28A)10(29A)10(30A)10(31A)10(32A)10(33A)10(34A)10(35A)10(36A)10(37A)10(38A)10(39A)10(40A)10(41A)10(42A)10(43A)10(44A)10(45A)10(46A)10(47A)10(48A)10(49A)10(50A)10(51A)10(52A)10(53A)))
+http://www.analisa.eu/abstractDatatype#nodelist_C12na
+CVertikale3: V12(E1(S10)E2((1C3)9(1A))E3(3(1S10))E4((1C3)9(1A)10(2A)(3S1)9(3A))E5(3(1S10)(2S10))E6((1C2)9(1A)(2C2)9(2A)10(3A)(4C5)9(4A))E7(2(1S10)2(2S10)5(3S10))E8((1C5)9(1A)(2C3)9(2A)10(3A)(4C5)9(4A)(5C2)9(5A)(6C2)9(6A)(7C4)9(7A)10(8A)(9C3)9(9A))E9(5(1S10)3(2S10)5(3S10)2(4S10)2(5S10)4(6S10)3(7S10))E10((1C5)9(1A)(2C2)9(2A)(3C3)9(3A)(4S1)9(4A)(5S1)9(5A)(6C4)9(6A)(7C2)9(7A)(8S1)9(8A)10(9A)(10C4)9(10A)10(11A)(12C3)9(12A)10(13A)(14C4)9(14A)10(15A)(16C3)9(16A)(17C3)9(17A)10(18A)(19C4)9(19A)(20C3)9(20A)(21C4)9(21A)(22C2)9(22A)(23C3)9(23A)(24S1)9(24A))E11(5(1S10)2(2S10)3(3S10)(4S10)(5S10)4(6S10)2(7S10)(8S10)4(9S10)3(10S10)4(11S10)3(12S10)3(13S10)4(14S10)3(15S10)4(16S10)2(17S10)3(18S10)(19S10))E12(10(1A)10(2A)10(3A)10(4A)10(5A)10(6A)10(7A)10(8A)10(9A)10(10A)10(11A)10(12A)10(13A)10(14A)10(15A)10(16A)10(17A)10(18A)10(19A)10(20A)10(21A)10(22A)10(23A)10(24A)10(25A)10(26A)10(27A)10(28A)10(29A)10(30A)10(31A)10(32A)10(33A)10(34A)10(35A)10(36A)10(37A)10(38A)10(39A)10(40A)10(41A)10(42A)10(43A)10(44A)10(45A)10(46A)10(47A)10(48A)10(49A)10(50A)10(51A)10(52A)10(53A)))
+http://www.analisa.eu/abstractDatatype#node_C13na
+CVertikale4: V11(E1(C3)E2(3(1S10))E3((1C3)9(1A)10(2A)(3S1)9(3A))E4(3(1S10)(2S10))E5((1C2)9(1A)(2C2)9(2A)10(3A)(4C5)9(4A))E6(2(1S10)2(2S10)5(3S10))E7((1C5)9(1A)(2C3)9(2A)10(3A)(4C5)9(4A)(5C2)9(5A)(6C2)9(6A)(7C4)9(7A)10(8A)(9C3)9(9A))E8(5(1S10)3(2S10)5(3S10)2(4S10)2(5S10)4(6S10)3(7S10))E9((1C5)9(1A)(2C2)9(2A)(3C3)9(3A)(4S1)9(4A)(5S1)9(5A)(6C4)9(6A)(7C2)9(7A)(8S1)9(8A)10(9A)(10C4)9(10A)10(11A)(12C3)9(12A)10(13A)(14C4)9(14A)10(15A)(16C3)9(16A)(17C3)9(17A)10(18A)(19C4)9(19A)(20C3)9(20A)(21C4)9(21A)(22C2)9(22A)(23C3)9(23A)(24S1)9(24A))E10(5(1S10)2(2S10)3(3S10)(4S10)(5S10)4(6S10)2(7S10)(8S10)4(9S10)3(10S10)4(11S10)3(12S10)3(13S10)4(14S10)3(15S10)4(16S10)2(17S10)3(18S10)(19S10))E11(10(1A)10(2A)10(3A)10(4A)10(5A)10(6A)10(7A)10(8A)10(9A)10(10A)10(11A)10(12A)10(13A)10(14A)10(15A)10(16A)10(17A)10(18A)10(19A)10(20A)10(21A)10(22A)10(23A)10(24A)10(25A)10(26A)10(27A)10(28A)10(29A)10(30A)10(31A)10(32A)10(33A)10(34A)10(35A)10(36A)10(37A)10(38A)10(39A)10(40A)10(41A)10(42A)10(43A)10(44A)10(45A)10(46A)10(47A)10(48A)10(49A)10(50A)10(51A)10(52A)10(53A)))
+http://www.analisa.eu/abstractDatatype#nodelist_C23na
+CVertikale5: V10(E1(S10)E2((1C3)9(1A))E3(3(1S10))E4((1C2)9(1A)(2C2)9(2A)10(3A))E5(2(1S10)2(2S10))E6((1C5)9(1A)(2C3)9(2A)10(3A)(4C5)9(4A))E7(5(1S10)3(2S10)5(3S10))E8((1C5)9(1A)(2C2)9(2A)(3C3)9(3A)(4S1)9(4A)(5S1)9(5A)(6C4)9(6A)(7C2)9(7A)(8S1)9(8A)10(9A)(10C4)9(10A)10(11A)(12C3)9(12A)10(13A))E9(5(1S10)2(2S10)3(3S10)(4S10)(5S10)4(6S10)2(7S10)(8S10)4(9S10)3(10S10))E10(10(1A)10(2A)10(3A)10(4A)10(5A)10(6A)10(7A)10(8A)10(9A)10(10A)10(11A)10(12A)10(13A)10(14A)10(15A)10(16A)10(17A)10(18A)10(19A)10(20A)10(21A)10(22A)10(23A)10(24A)10(25A)10(26A)))
+http://www.analisa.eu/abstractDatatype#node_C24na
+CVertikale6: V9(E1(C3)E2(3(1S10))E3((1C2)9(1A)(2C2)9(2A)10(3A))E4(2(1S10)2(2S10))E5((1C5)9(1A)(2C3)9(2A)10(3A)(4C5)9(4A))E6(5(1S10)3(2S10)5(3S10))E7((1C5)9(1A)(2C2)9(2A)(3C3)9(3A)(4S1)9(4A)(5S1)9(5A)(6C4)9(6A)(7C2)9(7A)(8S1)9(8A)10(9A)(10C4)9(10A)10(11A)(12C3)9(12A)10(13A))E8(5(1S10)2(2S10)3(3S10)(4S10)(5S10)4(6S10)2(7S10)(8S10)4(9S10)3(10S10))E9(10(1A)10(2A)10(3A)10(4A)10(5A)10(6A)10(7A)10(8A)10(9A)10(10A)10(11A)10(12A)10(13A)10(14A)10(15A)10(16A)10(17A)10(18A)10(19A)10(20A)10(21A)10(22A)10(23A)10(24A)10(25A)10(26A)))
+http://www.analisa.eu/abstractDatatype#nodelist_C34na
+CVertikale7: V10(E1(S10)E2((1S1)9(1A))E3((1S10))E4((1C5)9(1A))E5(5(1S10))E6((1C2)9(1A)(2C2)9(2A)(3C4)9(3A)10(4A)(5C3)9(5A))E7(2(1S10)2(2S10)4(3S10)3(4S10))E8((1C4)9(1A)10(2A)(3C3)9(3A)(4C3)9(4A)10(5A)(6C4)9(6A)(7C3)9(7A)(8C4)9(8A)(9C2)9(9A)(10C3)9(10A)(11S1)9(11A))E9(4(1S10)3(2S10)3(3S10)4(4S10)3(5S10)4(6S10)2(7S10)3(8S10)(9S10))E10(10(1A)10(2A)10(3A)10(4A)10(5A)10(6A)10(7A)10(8A)10(9A)10(10A)10(11A)10(12A)10(13A)10(14A)10(15A)10(16A)10(17A)10(18A)10(19A)10(20A)10(21A)10(22A)10(23A)10(24A)10(25A)10(26A)10(27A)))
+http://www.analisa.eu/abstractDatatype#node_C552na
+CVertikale8: V9(E1(S1)E2((1S10))E3((1C5)9(1A))E4(5(1S10))E5((1C2)9(1A)(2C2)9(2A)(3C4)9(3A)10(4A)(5C3)9(5A))E6(2(1S10)2(2S10)4(3S10)3(4S10))E7((1C4)9(1A)10(2A)(3C3)9(3A)(4C3)9(4A)10(5A)(6C4)9(6A)(7C3)9(7A)(8C4)9(8A)(9C2)9(9A)(10C3)9(10A)(11S1)9(11A))E8(4(1S10)3(2S10)3(3S10)4(4S10)3(5S10)4(6S10)2(7S10)3(8S10)(9S10))E9(10(1A)10(2A)10(3A)10(4A)10(5A)10(6A)10(7A)10(8A)10(9A)10(10A)10(11A)10(12A)10(13A)10(14A)10(15A)10(16A)10(17A)10(18A)10(19A)10(20A)10(21A)10(22A)10(23A)10(24A)10(25A)10(26A)10(27A)))
+http://www.analisa.eu/abstractDatatype#nodelist_C562na
+CVertikale9: V8(E1(S10)E2((1C5)9(1A))E3(5(1S10))E4((1C2)9(1A)(2C2)9(2A)(3C4)9(3A)10(4A)(5C3)9(5A))E5(2(1S10)2(2S10)4(3S10)3(4S10))E6((1C4)9(1A)10(2A)(3C3)9(3A)(4C3)9(4A)10(5A)(6C4)9(6A)(7C3)9(7A)(8C4)9(8A)(9C2)9(9A)(10C3)9(10A)(11S1)9(11A))E7(4(1S10)3(2S10)3(3S10)4(4S10)3(5S10)4(6S10)2(7S10)3(8S10)(9S10))E8(10(1A)10(2A)10(3A)10(4A)10(5A)10(6A)10(7A)10(8A)10(9A)10(10A)10(11A)10(12A)10(13A)10(14A)10(15A)10(16A)10(17A)10(18A)10(19A)10(20A)10(21A)10(22A)10(23A)10(24A)10(25A)10(26A)10(27A)))
+http://www.analisa.eu/abstractDatatype#node_C563na
+CVertikale10: V7(E1(C5)E2(5(1S10))E3((1C2)9(1A)(2C2)9(2A)(3C4)9(3A)10(4A)(5C3)9(5A))E4(2(1S10)2(2S10)4(3S10)3(4S10))E5((1C4)9(1A)10(2A)(3C3)9(3A)(4C3)9(4A)10(5A)(6C4)9(6A)(7C3)9(7A)(8C4)9(8A)(9C2)9(9A)(10C3)9(10A)(11S1)9(11A))E6(4(1S10)3(2S10)3(3S10)4(4S10)3(5S10)4(6S10)2(7S10)3(8S10)(9S10))E7(10(1A)10(2A)10(3A)10(4A)10(5A)10(6A)10(7A)10(8A)10(9A)10(10A)10(11A)10(12A)10(13A)10(14A)10(15A)10(16A)10(17A)10(18A)10(19A)10(20A)10(21A)10(22A)10(23A)10(24A)10(25A)10(26A)10(27A)))
+http://www.analisa.eu/abstractDatatype#nodelist_C573na
+CVertikale11: V8(E1(S10)E2((1C2)9(1A))E3(2(1S10))E4((1C5)9(1A)(2C3)9(2A))E5(5(1S10)3(2S10))E6((1C5)9(1A)(2C2)9(2A)(3C3)9(3A)(4S1)9(4A)(5S1)9(5A)(6C4)9(6A)(7C2)9(7A)(8S1)9(8A))E7(5(1S10)2(2S10)3(3S10)(4S10)(5S10)4(6S10)2(7S10)(8S10))E8(10(1A)10(2A)10(3A)10(4A)10(5A)10(6A)10(7A)10(8A)10(9A)10(10A)10(11A)10(12A)10(13A)10(14A)10(15A)10(16A)10(17A)10(18A)10(19A)))
+http://www.analisa.eu/abstractDatatype#node_C35na
+CVertikale12: V7(E1(C2)E2(2(1S10))E3((1C5)9(1A)(2C3)9(2A))E4(5(1S10)3(2S10))E5((1C5)9(1A)(2C2)9(2A)(3C3)9(3A)(4S1)9(4A)(5S1)9(5A)(6C4)9(6A)(7C2)9(7A)(8S1)9(8A))E6(5(1S10)2(2S10)3(3S10)(4S10)(5S10)4(6S10)2(7S10)(8S10))E7(10(1A)10(2A)10(3A)10(4A)10(5A)10(6A)10(7A)10(8A)10(9A)10(10A)10(11A)10(12A)10(13A)10(14A)10(15A)10(16A)10(17A)10(18A)10(19A)))
+http://www.analisa.eu/abstractDatatype#nodelist_C45na
+CVertikale13: V6(E1(S10)E2((1C5)9(1A))E3(5(1S10))E4((1C5)9(1A)(2C2)9(2A)(3C3)9(3A)(4S1)9(4A)(5S1)9(5A))E5(5(1S10)2(2S10)3(3S10)(4S10)(5S10))E6(10(1A)10(2A)10(3A)10(4A)10(5A)10(6A)10(7A)10(8A)10(9A)10(10A)10(11A)10(12A)))
+http://www.analisa.eu/abstractDatatype#node_C46na
+CVertikale14: V5(E1(C5)E2(5(1S10))E3((1C5)9(1A)(2C2)9(2A)(3C3)9(3A)(4S1)9(4A)(5S1)9(5A))E4(5(1S10)2(2S10)3(3S10)(4S10)(5S10))E5(10(1A)10(2A)10(3A)10(4A)10(5A)10(6A)10(7A)10(8A)10(9A)10(10A)10(11A)10(12A)))
+http://www.analisa.eu/abstractDatatype#nodelist_C56na
+CVertikale15: V8(E1(S10)E2((1C2)9(1A))E3(2(1S10))E4(10(1A)(2C5)9(2A))E5(5(1S10))E6(10(1A)(2C4)9(2A)10(3A)(4C3)9(4A)10(5A))E7(4(1S10)3(2S10))E8(10(1A)10(2A)10(3A)10(4A)10(5A)10(6A)10(7A)))
+http://www.analisa.eu/abstractDatatype#node_C365na
+CVertikale16: V6(E1(S10)E2((1C4)9(1A))E3(4(1S10))E4(10(1A)(2C4)9(2A)(3C3)9(3A)(4C4)9(4A))E5(4(1S10)3(2S10)4(3S10))E6(10(1A)10(2A)10(3A)10(4A)10(5A)10(6A)10(7A)10(8A)10(9A)10(10A)10(11A)))
+http://www.analisa.eu/abstractDatatype#node_C750na
+CVertikale17: V7(E1(C2)E2(2(1S10))E3(10(1A)(2C5)9(2A))E4(5(1S10))E5(10(1A)(2C4)9(2A)10(3A)(4C3)9(4A)10(5A))E6(4(1S10)3(2S10))E7(10(1A)10(2A)10(3A)10(4A)10(5A)10(6A)10(7A)))
+http://www.analisa.eu/abstractDatatype#nodelist_C375na
+CVertikale18: V5(E1(C4)E2(4(1S10))E3(10(1A)(2C4)9(2A)(3C3)9(3A)(4C4)9(4A))E4(4(1S10)3(2S10)4(3S10))E5(10(1A)10(2A)10(3A)10(4A)10(5A)10(6A)10(7A)10(8A)10(9A)10(10A)10(11A)))
+http://www.analisa.eu/abstractDatatype#nodelist_C760na
+CVertikale19: V6(E1(S10)E2((1C5)9(1A))E3(5(1S10))E4(10(1A)(2C4)9(2A)10(3A)(4C3)9(4A)10(5A))E5(4(1S10)3(2S10))E6(10(1A)10(2A)10(3A)10(4A)10(5A)10(6A)10(7A)))
+http://www.analisa.eu/abstractDatatype#node_C387na
+CVertikale20: V6(E1(S10)E2((1C3)9(1A))E3(3(1S10))E4((1C4)9(1A)(2C2)9(2A)(3S1)9(3A))E5(4(1S10)2(2S10)(3S10))E6(10(1A)10(2A)10(3A)10(4A)10(5A)10(6A)10(7A)))
+http://www.analisa.eu/abstractDatatype#node_C244na
+CVertikale21: V6(E1(S10)E2((1C3)9(1A))E3(3(1S10))E4((1C2)9(1A)(2C3)9(2A)(3S1)9(3A))E5(2(1S10)3(2S10)(3S10))E6(10(1A)10(2A)10(3A)10(4A)10(5A)10(6A)))
+http://www.analisa.eu/abstractDatatype#node_C937na
+CVertikale22: V5(E1(C5)E2(5(1S10))E3(10(1A)(2C4)9(2A)10(3A)(4C3)9(4A)10(5A))E4(4(1S10)3(2S10))E5(10(1A)10(2A)10(3A)10(4A)10(5A)10(6A)10(7A)))
+http://www.analisa.eu/abstractDatatype#nodelist_C397na
+CVertikale23: V5(E1(C3)E2(3(1S10))E3((1C4)9(1A)(2C2)9(2A)(3S1)9(3A))E4(4(1S10)2(2S10)(3S10))E5(10(1A)10(2A)10(3A)10(4A)10(5A)10(6A)10(7A)))
+http://www.analisa.eu/abstractDatatype#nodelist_C254na
+CVertikale24: V5(E1(C3)E2(3(1S10))E3((1C2)9(1A)(2C3)9(2A)(3S1)9(3A))E4(2(1S10)3(2S10)(3S10))E5(10(1A)10(2A)10(3A)10(4A)10(5A)10(6A)))
+http://www.analisa.eu/abstractDatatype#nodelist_C947na
+CVertikale25: V6(E1(S10)E2((1C2)9(1A))E3(2(1S10))E4((1C3)9(1A)(2C3)9(2A))E5(3(1S10)3(2S10))E6(10(1A)10(2A)10(3A)10(4A)10(5A)10(6A)))
+http://www.analisa.eu/abstractDatatype#node_C651na
+CVertikale26: V5(E1(C2)E2(2(1S10))E3((1C3)9(1A)(2C3)9(2A))E4(3(1S10)3(2S10))E5(10(1A)10(2A)10(3A)10(4A)10(5A)10(6A)))
+http://www.analisa.eu/abstractDatatype#nodelist_C661na
+CVertikale27: V6(E1(S10)E2((1C2)9(1A))E3(2(1S10))E4((1C4)9(1A)10(2A))E5(4(1S10))E6(10(1A)10(2A)10(3A)10(4A)))
+http://www.analisa.eu/abstractDatatype#node_C574na
+CVertikale28: V4(E1(C3)E2((1C4)(1C3)(1A))E3(3(1S6)(1A)2(2S6)(2A))E4(6(1A)6(2A)6(3A)6(4A)6(5A)))
+http://www.analisa.eu/abstractDatatype#catalogs_A1
+CVertikale29: V5(E1(C2)E2(2(1S10))E3((1C4)9(1A)10(2A))E4(4(1S10))E5(10(1A)10(2A)10(3A)10(4A)))
+http://www.analisa.eu/abstractDatatype#nodelist_C584na
+CVertikale30: V5(E1(S2)E2(2(1S2))E3((1S2)(1A)(2S2)(2A))E4((1S1)(1A)(2S1)(2A))E5((1A)(2A)))
+http://www.analisa.eu/abstractDatatype#c1.1_D1na
+CVertikale31: V4(E1(S10)E2((1C5)9(1A))E3(5(1S10))E4(10(1A)10(2A)10(3A)10(4A)10(5A)))
+http://www.analisa.eu/abstractDatatype#node_C57na
+CVertikale32: V4(E1(S10)E2((1C4)9(1A))E3(4(1S10))E4(10(1A)10(2A)10(3A)10(4A)))
+http://www.analisa.eu/abstractDatatype#node_C255na
+http://www.analisa.eu/abstractDatatype#node_C409na
+http://www.analisa.eu/abstractDatatype#node_C585na
+http://www.analisa.eu/abstractDatatype#node_C772na
+http://www.analisa.eu/abstractDatatype#node_C871na
+CVertikale33: V4(E1(S10)E2((1C3)9(1A))E3(3(1S10))E4(10(1A)10(2A)10(3A)))
+http://www.analisa.eu/abstractDatatype#node_C156na
+http://www.analisa.eu/abstractDatatype#node_C475na
+http://www.analisa.eu/abstractDatatype#node_C662na
+http://www.analisa.eu/abstractDatatype#node_C706na
+http://www.analisa.eu/abstractDatatype#node_C827na
+http://www.analisa.eu/abstractDatatype#node_C981na
+CVertikale34: V3(E1(C5)E2(5(1S10))E3(10(1A)10(2A)10(3A)10(4A)10(5A)))
+http://www.analisa.eu/abstractDatatype#nodelist_C67na
+CVertikale35: V4(E1(S10)E2((1C2)9(1A))E3(2(1S10))E4(10(1A)10(2A)))
+http://www.analisa.eu/abstractDatatype#node_C123na
+http://www.analisa.eu/abstractDatatype#node_C310na
+http://www.analisa.eu/abstractDatatype#node_C948na
+CVertikale36: V3(E1(C4)E2(4(1S10))E3(10(1A)10(2A)10(3A)10(4A)))
+http://www.analisa.eu/abstractDatatype#nodelist_C265na
+http://www.analisa.eu/abstractDatatype#nodelist_C419na
+http://www.analisa.eu/abstractDatatype#nodelist_C595na
+http://www.analisa.eu/abstractDatatype#nodelist_C782na
+http://www.analisa.eu/abstractDatatype#nodelist_C881na
+CVertikale37: V4(E1(S10)E2((1S1)9(1A))E3((1S10))E4(10(1A)))
+http://www.analisa.eu/abstractDatatype#node_C200na
+http://www.analisa.eu/abstractDatatype#node_C222na
+http://www.analisa.eu/abstractDatatype#node_C343na
+http://www.analisa.eu/abstractDatatype#node_C1025na
+CVertikale38: V4(E1(S2)E2((1S2)(1A))E3((1S1)(1A))E4((1A)))
+http://www.analisa.eu/abstractDatatype#c2.1_D2na
+http://www.analisa.eu/abstractDatatype#c2.2_D8na
+CVertikale39: V3(E1(C4)E2(3(1S6)(1A))E3(6(1A)6(2A)6(3A)))
+http://www.analisa.eu/abstractDatatype#catalog_A2
+CVertikale40: V3(E1(C3)E2(3(1S10))E3(10(1A)10(2A)10(3A)))
+http://www.analisa.eu/abstractDatatype#nodelist_C166na
+http://www.analisa.eu/abstractDatatype#nodelist_C485na
+http://www.analisa.eu/abstractDatatype#nodelist_C672na
+http://www.analisa.eu/abstractDatatype#nodelist_C716na
+http://www.analisa.eu/abstractDatatype#nodelist_C837na
+http://www.analisa.eu/abstractDatatype#nodelist_C991na
+CVertikale41: V3(E1(C3)E2(2(1S6)(1A))E3(6(1A)6(2A)))
+http://www.analisa.eu/abstractDatatype#catalog_A24
+CVertikale42: V3(E1(C2)E2(2(1S10))E3(10(1A)10(2A)))
+http://www.analisa.eu/abstractDatatype#nodelist_C133na
+http://www.analisa.eu/abstractDatatype#nodelist_C320na
+http://www.analisa.eu/abstractDatatype#nodelist_C958na
+CVertikale43: V3(E1(S2)E2((1S1)(1A))E3((1A)))
+http://www.analisa.eu/abstractDatatype#c3.1_D3na
+http://www.analisa.eu/abstractDatatype#c3.2_D9na
+CVertikale44: V3(E1(S1)E2((1S10))E3(10(1A)))
+http://www.analisa.eu/abstractDatatype#nodelist_C210na
+http://www.analisa.eu/abstractDatatype#nodelist_C232na
+http://www.analisa.eu/abstractDatatype#nodelist_C353na
+http://www.analisa.eu/abstractDatatype#nodelist_C1035na
+CVertikale45: V2(E1(S10)E2(10(1A)))
+http://www.analisa.eu/abstractDatatype#node_C541na
+http://www.analisa.eu/abstractDatatype#node_C530na
+http://www.analisa.eu/abstractDatatype#node_C376na
+http://www.analisa.eu/abstractDatatype#node_C926na
+http://www.analisa.eu/abstractDatatype#node_C398na
+http://www.analisa.eu/abstractDatatype#node_C464na
+http://www.analisa.eu/abstractDatatype#node_C519na
+http://www.analisa.eu/abstractDatatype#node_C640na
+http://www.analisa.eu/abstractDatatype#node_C761na
+http://www.analisa.eu/abstractDatatype#node_C68na
+http://www.analisa.eu/abstractDatatype#node_C79na
+http://www.analisa.eu/abstractDatatype#node_C90na
+http://www.analisa.eu/abstractDatatype#node_C101na
+http://www.analisa.eu/abstractDatatype#node_C112na
+http://www.analisa.eu/abstractDatatype#node_C134na
+http://www.analisa.eu/abstractDatatype#node_C145na
+http://www.analisa.eu/abstractDatatype#node_C167na
+http://www.analisa.eu/abstractDatatype#node_C178na
+http://www.analisa.eu/abstractDatatype#node_C189na
+http://www.analisa.eu/abstractDatatype#node_C211na
+http://www.analisa.eu/abstractDatatype#node_C233na
+http://www.analisa.eu/abstractDatatype#node_C266na
+http://www.analisa.eu/abstractDatatype#node_C277na
+http://www.analisa.eu/abstractDatatype#node_C288na
+http://www.analisa.eu/abstractDatatype#node_C299na
+http://www.analisa.eu/abstractDatatype#node_C321na
+http://www.analisa.eu/abstractDatatype#node_C332na
+http://www.analisa.eu/abstractDatatype#node_C354na
+http://www.analisa.eu/abstractDatatype#node_C420na
+http://www.analisa.eu/abstractDatatype#node_C431na
+http://www.analisa.eu/abstractDatatype#node_C442na
+http://www.analisa.eu/abstractDatatype#node_C453na
+http://www.analisa.eu/abstractDatatype#node_C486na
+http://www.analisa.eu/abstractDatatype#node_C497na
+http://www.analisa.eu/abstractDatatype#node_C508na
+http://www.analisa.eu/abstractDatatype#node_C596na
+http://www.analisa.eu/abstractDatatype#node_C607na
+http://www.analisa.eu/abstractDatatype#node_C618na
+http://www.analisa.eu/abstractDatatype#node_C629na
+http://www.analisa.eu/abstractDatatype#node_C673na
+http://www.analisa.eu/abstractDatatype#node_C684na
+http://www.analisa.eu/abstractDatatype#node_C695na
+http://www.analisa.eu/abstractDatatype#node_C717na
+http://www.analisa.eu/abstractDatatype#node_C728na
+http://www.analisa.eu/abstractDatatype#node_C739na
+http://www.analisa.eu/abstractDatatype#node_C783na
+http://www.analisa.eu/abstractDatatype#node_C794na
+http://www.analisa.eu/abstractDatatype#node_C805na
+http://www.analisa.eu/abstractDatatype#node_C816na
+http://www.analisa.eu/abstractDatatype#node_C838na
+http://www.analisa.eu/abstractDatatype#node_C849na
+http://www.analisa.eu/abstractDatatype#node_C860na
+http://www.analisa.eu/abstractDatatype#node_C882na
+http://www.analisa.eu/abstractDatatype#node_C893na
+http://www.analisa.eu/abstractDatatype#node_C904na
+http://www.analisa.eu/abstractDatatype#node_C915na
+http://www.analisa.eu/abstractDatatype#node_C959na
+http://www.analisa.eu/abstractDatatype#node_C970na
+http://www.analisa.eu/abstractDatatype#node_C992na
+http://www.analisa.eu/abstractDatatype#node_C1003na
+http://www.analisa.eu/abstractDatatype#node_C1014na
+http://www.analisa.eu/abstractDatatype#node_C1036na
+CVertikale46: V2(E1(S6)E2(6(1A)))
+http://www.analisa.eu/abstractDatatype#cd_A3na
+http://www.analisa.eu/abstractDatatype#cd_A10na
+http://www.analisa.eu/abstractDatatype#cd_A17na
+http://www.analisa.eu/abstractDatatype#cd_A25na
+http://www.analisa.eu/abstractDatatype#cd_A32na
+CVertikale47: V2(E1(S1)E2((1A)))
+http://www.analisa.eu/abstractDatatype#c4.1_D4na
+http://www.analisa.eu/abstractDatatype#c4.2_D10na
