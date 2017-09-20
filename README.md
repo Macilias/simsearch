@@ -4,8 +4,8 @@ This is the system build as POC of my Diploma Thesis.
 The following menu provides functionality to import
 arbitrary xml files to internal Ontology. Its outcome
 is a presentation of known files within the Ontology
-stored in Ontology/abstractDatabase.owl annotated
-with similarity distance. 
+stored in target/classes/Ontology/abstractDatabase.owl 
+annotated with similarity distance. 
 Since the presentation script seam not to work properly
 right now, please consult the abstractDatabase.owl 
 it self for the moment.
